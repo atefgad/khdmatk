@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lalezar|Tajawal&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-rtl.css">
@@ -17,15 +15,15 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars"></i></button>
-        <div class="collapse navbar-collapse" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars"></i><i class="fa fa-close"></i></button>
+        <div class="collapse navbar-collapse animated fadeInUp" id="navbar">
           <ul class="navbar-nav">
-            <li><a class="nav-link" href="/"> <i class="fa fa-home"></i>الرئيسية          </a></li>
+            <li><a class="nav-link" href="/index.html"> <i class="fa fa-home"></i>الرئيسية          </a></li>
             <li><a class="nav-link" href="#our-services"> <i class="fa fa-server"></i>خدماتنا  </a></li>
-            <li><a class="nav-link" href="#about-us"> <i class="fa fa-home"></i>عن خدماتك </a></li>
-            <li><a class="nav-link" href="#contact-us"> <i class="fa fa-home"></i>تواصل معنا          </a></li>
+            <li><a class="nav-link" href="#about-us"> <i class="fa fa-info-circle"></i>عن خدماتك </a></li>
+            <li><a class="nav-link" href="#contact-us"> <i class="fa fa-phone"></i>تواصل معنا          </a></li>
           </ul>
-        </div><a class="navbar-brand" href="/">خدماتك <span>. كوم</span></a>
+        </div><a class="navbar-brand" href="/index.html">خدماتك <span>. كوم</span></a>
       </div>
     </nav>
   </header>
@@ -35,22 +33,23 @@
         <div class="row justify-content-center align-items-center full-height-screen mb-3">
           <div class="offset-lg-2 col-lg-5 col-md-12 home-intro-right d-none d-lg-block">
             <div class="row justify-content-center align-items-center">
-              <div class="col intro-icon">
+              <div class="col intro-icon animated fadeInDown">
                 <div class="ico"><span class="des">قطارات</span><i class="fa fa-train animated infinite pulse delay-2s"></i></div>
               </div>
-              <div class="col intro-icon">
+              <div class="col intro-icon animated fadeInDown" data-wow-delay=".2s">
                 <div class="ico"><span class="des">أتوبيسات</span><i class="fa fa-bus animated infinite pulse delay-2s"></i></div>
               </div>
-              <div class="col intro-icon">
+              <div class="col intro-icon animated fadeInDown" data-wow-delay=".4s">
                 <div class="ico"><span class="des">طياران</span><i class="fa fa-plane animated infinite pulse delay-2s"></i></div>
               </div>
             </div>
           </div>
           <div class="col-lg-5 col-md-8 home-intro-left">
-            <h1>أفضل شركــة مصرية فى تقديم </h1>
+            <h1 class="animated fadeInDown" data-wow-delay=".1s"> أفضل شركــة مصرية فى تقديم </h1>
             <div class="type-wrap"><span id="typed"></span>
               <div class="typed-strings">
-                <p class="mt-20 mb-40">تدفع الفواتير كلها </p>
+                <p class="mt-20 mb-40">دفع مخالفات المرور  </p>
+                <p class="mt-20 mb-40">دفع فواتير الكهرباء والمياه  </p>
                 <p class="mt-20 mb-40">حجز طياران داخلى وخارجي </p>
                 <p class="mt-20 mb-40">حجز قطارات واتوبيسات   </p>
               </div>
@@ -63,7 +62,7 @@
   <section class="feature-area">
     <div class="container-fluid">
       <div class="feature-inner row">
-        <div class="col-lg-2 col-md-6">
+        <div class="col-lg-2 col-md-6 wow animated fadeInDown">
           <div class="feature-item"><i class="fa fa-clock-o"></i>
             <div class="mt-3">
               <h4>وفر وقتك</h4>
@@ -72,7 +71,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6">
+        <div class="col-lg-2 col-md-6 wow animated fadeInDown" data-wow-delay=".2s">
           <div class="feature-item"><i class="fa fa-money"></i>
             <div class="mt-3">
               <h4>وفر فلوسك</h4>
@@ -81,8 +80,8 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6">
-          <div class="feature-item border-right-0"><i class="fa fa-clock-o"></i>
+        <div class="col-lg-2 col-md-6 wow animated fadeInDown" data-wow-delay=".4s">
+          <div class="feature-item border-right-0"><i class="fa fa-shield"></i>
             <div class="mt-3">
               <h4>أمان</h4>
               <p>
@@ -99,14 +98,14 @@
       <div class="row">
         <div class="col-md-7">
           <div class="section-title text-center">
-            <h2>تعرف علينا</h2>
-            <p>من نحن وماذا نفعل؟</p>
+            <h2 class="wow animated fadeInUp" data-wow-delay=".1s">تعرف علينا</h2>
+            <p class="wow animated fadeInDown" data-wow-delay=".2s">من نحن وماذا نفعل؟</p>
             <div class="title-underline">
               <hr><i class="fa fa-plane"></i>
             </div>
           </div>
-          <p class="about-us-text">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي </p>
-          <div class="socialMedia d-flex aligne-items-center">
+          <p class="about-us-text text-right wow animated fadeInUp" data-wow-delay=".4s">هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه عدة مرات بما تتطلبه الحاجة، يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي </p>
+          <div class="socialMedia d-flex aligne-items-center wow animated fadeInUp" data-wow-delay=".6s">
             <ul>
               <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
               <li><a href="#"> <i class="fa fa-google-plus"></i></a></li>
@@ -115,28 +114,28 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 wow animated fadeInLeft" data-wow-delay=".2s">
           <div class="clip-right"><img class="img-fluid" src="./images/gallery-9.jpg" alt=""></div>
         </div>
       </div>
     </div>
   </section>
-  <div class="our-mission-section">
+  <section class="our-mission-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".1s">
           <div class="section-box text-center"><i class="fa fa-life-ring"></i>
             <h2>مهمتنـــا</h2>
             <p>حجز طيران وقطارات واتوبيسات ودفع كافة الفواتير </p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".3s">
           <div class="section-box text-center"><i class="fa fa-road"></i>
             <h2>هدفنـــا</h2>
             <p>حجز طيران وقطارات واتوبيسات ودفع كافة الفواتير </p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".6s">
           <div class="section-box text-center"><i class="fa fa-lightbulb-o"></i>
             <h2>رؤيتنـــا</h2>
             <p>حجز طيران وقطارات واتوبيسات ودفع كافة الفواتير </p>
@@ -144,19 +143,19 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <section class="our-services" id="our-services">
     <div class="container">
       <div class="section-title text-center">
-        <h2>خدماتنــا</h2>
-        <p>تعرف على ما الذى نقدمه</p>
-        <div class="title-underline">
+        <h2 class="wow animated fadeInDown" data-wow-delay=".1s">خدماتنــا</h2>
+        <p class="wow animated fadeInUp" data-wow-delay=".3s">تعرف على ما الذى نقدمه</p>
+        <div class="title-underline wow animated slideInUp" data-wow-delay=".4s">
           <hr><i class="fa fa-plane"></i>
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-md-4 d-flex align-items-center">
-          <div class="service-item"> 
+          <div class="service-item wow animated fadeInUp" data-wow-delay=".1s"> 
             <div class="service-icon"><i class="fa fa-file-text-o"></i></div>
             <h3 class="service-item-title">سداد كافة الفواتير</h3>
             <p class="service-item-text">دفع فواتير الكهرباء والمياه ومخالفات المرور وفواتير الانترنت والتليفون</p>
@@ -165,14 +164,14 @@
         <div class="col-md-4">
           <div class="row">
             <div class="col-md-12">
-              <div class="service-item"> 
+              <div class="service-item wow animated fadeInDown" data-wow-delay=".3s"> 
                 <div class="service-icon"><i class="fa fa-plane"></i></div>
                 <h3 class="service-item-title">حجز تذاكر طيران</h3>
                 <p class="service-item-text">حجز تذاكر الطيران الداخلى والخارجى بأقل الأسعار</p>
               </div>
             </div>
             <div class="col-md-12">
-              <div class="service-item">
+              <div class="service-item wow animated fadeInUp" data-wow-delay=".5s">
                 <div class="service-icon"><i class="fa fa-credit-card-alt"></i></div>
                 <h3 class="service-item-title">سداد المصروفات الحكومية</h3>
                 <p class="service-item-text">سداد ودفع كافه الخدمات الحكومية على الأنترنت</p>
@@ -181,7 +180,7 @@
           </div>
         </div>
         <div class="col-md-4 d-flex align-items-center">
-          <div class="service-item">
+          <div class="service-item wow animated fadeInUp" data-wow-delay=".7s">
             <div class="service-icon"><i class="fa fa-train"> </i><span>+ </span><i class="fa fa-bus"></i></div>
             <h3 class="service-item-title">حجز أتوبيسات وقطارات</h3>
             <p class="service-item-text">حجز ذاكر قطارات وجه قبلى ووجه بحرى وتذاكر رحالات سفر بالاتوبيسات</p>
@@ -196,12 +195,12 @@
       <div class="row align-items-center">
         <div class="col-lg-8 col-md-6">
           <div class="choose-us-section-content text-right">
-            <h2>.كل خدماتك هتخلصها وانت فى مكانك</h2>
-            <p>حجز طيران وقطارات واتوبيسات ودفع كافة الفواتير </p>
+            <h2 class="wow animated fadeInDown" data-wow-delay=".1s">.كل خدماتك هتخلصها وانت فى مكانك</h2>
+            <p class="wow animated fadeInUp" data-wow-delay=".3s">حجز طيران وقطارات واتوبيسات ودفع كافة الفواتير </p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="choose-us-link"><a class="btn btn-outline-secondary" href="tel:2001553676826" title="download now"> <i class="fa fa-phone"> </i>أتصل بنا الأن</a></div>
+          <div class="choose-us-link"><a class="btn btn-outline-secondary wow animated fadeInUp" data-wow-delay=".5s" href="tel:2001553676826" title="download now"> <i class="fa fa-phone"> </i>أتصل بنا الأن</a></div>
         </div>
       </div>
       <div class="arrow-shape-bottom"></div>
@@ -210,19 +209,19 @@
   <section class="contact-us" id="contact-us">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".1s">
           <div class="contact-info border-right-0">
             <h4> <a href="#!">سوهاج / جرجا</a></h4>
             <p>العنـــوان</p><i class="fa fa-map-marker"></i>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".3s">
           <div class="contact-info">
-            <h4> <a href="tel:01553676826">01553676826</a></h4>
+            <h4> <a href="tel:012345678910">012345678910</a></h4>
             <p>رقم التليفون</p><i class="fa fa-phone"></i>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 wow animated fadeInUp" data-wow-delay=".5s">
           <div class="contact-info">
             <h4> <a href="mailto:example@example.com">example@example.com</a></h4>
             <p>البريد الإكترونى</p><i class="fa fa-envelope"> </i>
@@ -235,8 +234,8 @@
     <div class="lower-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-right">
-            <div class="socialMedia">
+          <div class="col-md-6 col-sm-4 text-right">
+            <div class="socialMedia wow animated fadeInUp" data-wow-delay=".1s">
               <ul>
                 <li><a href="#"> <i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"> <i class="fa fa-google-plus"></i></a></li>
@@ -245,7 +244,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-6 text-left">
+          <div class="col-md-6 col-sm-8 text-left wow animated fadeInUp" data-wow-delay=".2s">
             <div class="copyRights">
               <p>
                 جميع الحقوق والملكية الفكرية مسجلة ومحفوضة لخدماتك.كوم © 2019 <br/> Made By <i class="fa fa-code code animated infinite pulse delay-2s"> </i><a href="http://atef-gad.com" target="_blank">  <strong>atef gad</strong></a></p>
@@ -253,13 +252,12 @@
           </div>
         </div>
       </div>
-      <div class="gotoup"><a href="#"><i class="fa fa-caret-up"></i></a></div>
+      <div class="gotoup wow animated fadeInUp" data-wow-delay=".2s"><a href="#"><i class="fa fa-caret-up animated infinite fadeIn delay-2s"></i></a></div>
     </div><a class="float animated infinite pulse delay-2s" target="_blank" href="https://api.whatsapp.com/send?phone=2001553676826"><i class="fa fa-whatsapp my-float"></i></a>
   </footer>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/typed.js"></script>
   <script src="js/main.js"></script></body>
